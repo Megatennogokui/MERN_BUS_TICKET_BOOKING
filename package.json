@@ -8,11 +8,8 @@
     "npm" : "9.5.1"
   },
   "scripts": {
-    "install-server": "npm install",
-    "start-server": "node server.js",
-    "install-client": "cd client && npm install",
-    "build-client": "cd client && npm run build",
-    "start-client": "cd client && npm run start"
+    "dev" : "nodemon server.js",
+    "build" : "npm i"
   },
   
   "author": "",
